@@ -4,7 +4,7 @@
   "description": "Skeleton for new typescript services based on hexagonal architecture",
   "main": "src/index.js",
   "scripts": {
-    "start": "node dist/src/main.ts",
+    "start": "node dist/src/main.js",
     "start:dev": "tsnd --respawn src/main.ts",
     "test": "npm run test:unit",
     "test:unit": "NODE_ENV=test jest --coverage",
